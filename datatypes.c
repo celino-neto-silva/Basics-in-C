@@ -10,4 +10,6 @@ int main(void){
     printf("Height: %.2f\n", height);
     printf("Sex: %s\n", sex=='M'?"Male":"Female");
     printf("Marriage: %s\n", married==1?"Married":"No married");
+
+    return 0;
 }

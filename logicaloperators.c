@@ -18,4 +18,6 @@ int main(void){
     //Combination of Logical Operators
     result = (a && b) || !a;
     printf("(%d && %d) || !%d is equal %s\n", a, b, a, result?"True":"False");
+
+    return 0;
 }
